@@ -399,14 +399,14 @@ function Home() {
                                         data-aos-duration="500"
                                         data-aos-offset='300'>\ 好玩又好學 /</p>
                                 </div>
-                                <img className="Home-content-img" src="../public/images/pinkA.svg" alt="" />
+                                <img className="Home-content-img" src="../images/pinkA.svg" alt="" />
                             </div>
                             <div className="Home-content-bk-2"
                                 data-aos="fade-down"
                                 data-aos-duration="500"
                                 data-aos-offset='300'
                             >
-                                <img className='Home-content-bk-2-img' src="../public/images/homeIntroA.jpg" alt="" />
+                                <img className='Home-content-bk-2-img' src="../images/homeIntroA.jpg" alt="" />
                                 <p className="Home-content-9">程式結合單字學習</p>
                                 <p className="Home-content-10">寓教於樂的學習樂園
                                     <br />
@@ -416,7 +416,7 @@ function Home() {
                                 data-aos="fade-down"
                                 data-aos-duration="500"
                                 data-aos-offset='300'>
-                                <img className='Home-content-bk-3-img' src="../public/images/homeIntroB.jpg" alt="" />
+                                <img className='Home-content-bk-3-img' src="../images/homeIntroB.jpg" alt="" />
                                 <p className="Home-content-11">情緒覺察</p>
                                 <p className="Home-content-12">學習後選擇心情，一起分享成就感
                                     <br />
@@ -440,7 +440,7 @@ function Home() {
                             <div className="Home-content-bk-5">
                                 <Link to='/LearnHome'>
                                     <p className='Home-content-bk-text-5'>Start Now</p>
-                                    {/* <img className="Home-btn" src="../public/images/btn.png" alt=""
+                                    {/* <img className="Home-btn" src="../images/btn.png" alt=""
                                     ref={startRef}
                                     onMouseUp={startMouseUp}
                                     onMouseDown={startMouseDown}
