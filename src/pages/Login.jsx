@@ -18,14 +18,14 @@ export default function Login() {
                 <Navbar />
                 <div className="login-main">
                     <div className="amoeba-blobs">
-                        <img src="/images/login.png" alt="" />
+                        <img src="images/login.png" alt="" />
                     </div>
 
                     <div className="characters">
-                        <img src="/images/greenA.svg" alt="" className="green-char" />
-                        <img src="/images/redB.svg" alt="" className="red-char" />
-                        <img src="/images/blueA.svg" alt="" className="blue-char" />
-                        <img src="/images/pinkA.svg" alt="" className="pink-char" />
+                        <img src="images/greenA.svg" alt="" className="green-char" />
+                        <img src="images/redB.svg" alt="" className="red-char" />
+                        <img src="images/blueA.svg" alt="" className="blue-char" />
+                        <img src="images/pinkA.svg" alt="" className="pink-char" />
                     </div>
 
                     <div className="login-form">
@@ -47,9 +47,9 @@ export default function Login() {
                             <hr />
                         </div>
                         <div className="social-login">
-                            <button className="facebook"><img src="/images/icon_fb.svg" alt="" /></button>
-                            <button className="apple"><img src="/images/icon_apple.svg" alt="" /></button>
-                            <button className="google"><img src="/images/icon_google.svg" alt="" /></button>
+                            <button className="facebook"><img src="images/icon_fb.svg" alt="" /></button>
+                            <button className="apple"><img src="images/icon_apple.svg" alt="" /></button>
+                            <button className="google"><img src="images/icon_google.svg" alt="" /></button>
                         </div>
                     </div>
                 </div>

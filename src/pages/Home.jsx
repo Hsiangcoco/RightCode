@@ -299,7 +299,7 @@ function Home() {
                                         並且學會技術應用，強化數位素養。</p>
                                 </div>
                                 <div className="Home-content-3-img"> {/* 右往左邊移動 逮捕 done */}
-                                    <img className='move-right-blue' ref={blueARef} src="../images/blueA.svg" alt="" />
+                                    <img className='move-right-blue' ref={blueARef} src="images/blueA.svg" alt="" />
                                 </div>
                             </div>
                             <div className="Home-content-4">
@@ -318,7 +318,7 @@ function Home() {
                                         <br />讓孩子未來更具國際競爭力！</p>
                                 </div>
                                 <div className="Home-content-4-img"> {/* 左往右邊移動 逮捕done */}
-                                    <img className='move-left-red' ref={redRef} src="../images/red.svg" alt="" />
+                                    <img className='move-left-red' ref={redRef} src="images/red.svg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -364,7 +364,7 @@ function Home() {
                                 </div>
                             </div>
                             <div > {/* 下移速度改150px done  */}
-                                <img className="Home-ladder" ref={pinkRef} src="../images/pinkB.svg" alt="梯子" />
+                                <img className="Home-ladder" ref={pinkRef} src="images/pinkB.svg" alt="梯子" />
                             </div>
                         </div>
 
@@ -399,14 +399,14 @@ function Home() {
                                         data-aos-duration="500"
                                         data-aos-offset='300'>\ 好玩又好學 /</p>
                                 </div>
-                                <img className="Home-content-img" src="../images/pinkA.svg" alt="" />
+                                <img className="Home-content-img" src="images/pinkA.svg" alt="" />
                             </div>
                             <div className="Home-content-bk-2"
                                 data-aos="fade-down"
                                 data-aos-duration="500"
                                 data-aos-offset='300'
                             >
-                                <img className='Home-content-bk-2-img' src="../images/homeIntroA.jpg" alt="" />
+                                <img className='Home-content-bk-2-img' src="images/homeIntroA.jpg" alt="" />
                                 <p className="Home-content-9">程式結合單字學習</p>
                                 <p className="Home-content-10">寓教於樂的學習樂園
                                     <br />
@@ -416,7 +416,7 @@ function Home() {
                                 data-aos="fade-down"
                                 data-aos-duration="500"
                                 data-aos-offset='300'>
-                                <img className='Home-content-bk-3-img' src="../images/homeIntroB.jpg" alt="" />
+                                <img className='Home-content-bk-3-img' src="images/homeIntroB.jpg" alt="" />
                                 <p className="Home-content-11">情緒覺察</p>
                                 <p className="Home-content-12">學習後選擇心情，一起分享成就感
                                     <br />
@@ -446,7 +446,7 @@ function Home() {
                                     onMouseDown={startMouseDown}
                                 /> */}
                                 </Link>
-                                <img className="Home-greenIp" src="../images/greenB.svg" alt="" />
+                                <img className="Home-greenIp" src="images/greenB.svg" alt="" />
                             </div>
                         </div>
                     </section>
