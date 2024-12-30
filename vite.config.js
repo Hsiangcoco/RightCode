@@ -6,5 +6,5 @@ export default defineConfig({
   // base:process.env.NODE_ENV==='production'?'/rcReact/':'/',
 /*   base:'./',
  */  plugins: [react()],
-  base:process.env.NODE_ENV ==='production'?'/RightCode/':'/', 
+  base: './',
 })

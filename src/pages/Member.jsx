@@ -120,7 +120,7 @@ export default function Member() {
                 {/* 會員總資料 */}
                 <section id="member">
                     {/* 會員圖片 */}
-                    <div className="memberPic"><img src="images/greenE.svg" alt="會員圖片" />
+                    <div className="memberPic"><img src="./images/greenE.svg" alt="會員圖片" />
                     </div>
                     <div id="memberAll">
                         {/* 會員資料 */}
@@ -151,9 +151,9 @@ export default function Member() {
                         <div className="memberAward">
                             <h2>獎盃挑戰</h2>
                             <div className="award">
-                                <div className="aPic1"><img src="images/award.svg" alt="" />
+                                <div className="aPic1"><img src="./images/award.svg" alt="" />
                                 <span className="awardName">我是獎盃名稱</span></div>
-                                <div className="aPic1"><img src="images/award.svg" alt="" />
+                                <div className="aPic1"><img src="./images/award.svg" alt="" />
                                 <span className="awardName">我是獎盃名稱</span></div>
                             </div>
                         </div>
@@ -165,12 +165,12 @@ export default function Member() {
                         {/* 課程進度 */}
                         <section id="progress">
                             <div className="progressTitle">
-                                <img src="images/icon_blue.svg" alt="" />
+                                <img src="./images/icon_blue.svg" alt="" />
                                 <h2>課程進度</h2>
                             </div>
 
                             <Link to="/LearnPage" className="course">
-                                <img src="images/memberHTML.png" alt="" className="html" />
+                                <img src="./images/memberHTML.png" alt="" className="html" />
                                 <div className="courseInfo">
                                     <h2>HTML 第<span>5</span>堂</h2>
                                     <div className="progress">
@@ -182,7 +182,7 @@ export default function Member() {
 
 
                             <Link to="/LearnPage" className="course">
-                                <img src="images/memberCSS.png" alt="" className="CSS" />
+                                <img src="./images/memberCSS.png" alt="" className="CSS" />
                                 <div className="courseInfo">
                                     <h2>CSS 第<span>5</span>堂</h2>
                                     <div className="progress">
@@ -196,7 +196,7 @@ export default function Member() {
                         {/* 收藏課程 */}
                         <section id="collectionAll">
                             <div className="collectionTitle">
-                                <img src="images/icon_pink.svg" alt="" />
+                                <img src="./images/icon_pink.svg" alt="" />
                                 <h2>收藏課程</h2>
                             </div>
                             <Link to="/LearnArea" className="collect1">
@@ -226,7 +226,7 @@ export default function Member() {
                     <section id="award">
                         {/* 總堂數 */}
                         <div className="awardContent">
-                            <h2><img src="images/iconGreenA.png" alt="" />總堂數</h2>
+                            <h2><img src="./images/iconGreenA.png" alt="" />總堂數</h2>
                             <div className="awardPic">
                                 <div className="aPic">
                                     {

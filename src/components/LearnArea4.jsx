@@ -4,9 +4,9 @@ import '../assets/scss/LearnArea4.scss';
 
 export default function LearnArea4() {
   const [draggableItems, setDraggableItems] = useState([
-    { id: 1, iconName: "images/learnAreaI.png", brandName: "images/learnAreaQ1.png", isDropped: false },
-    { id: 2, iconName: "images/learnAreaS.png", brandName: "images/learnAreaQ2.png", isDropped: false },
-    { id: 3, iconName: "images/learnAreaU.png", brandName: "images/learnAreaQ3.png", isDropped: false }
+    { id: 1, iconName: "./images/learnAreaI.png", brandName: "./images/learnAreaQ1.png", isDropped: false },
+    { id: 2, iconName: "./images/learnAreaS.png", brandName: "./images/learnAreaQ2.png", isDropped: false },
+    { id: 3, iconName: "./images/learnAreaU.png", brandName: "./images/learnAreaQ3.png", isDropped: false }
   ]);
 
   const [droppedItems, setDroppedItems] = useState([]);
@@ -43,9 +43,9 @@ export default function LearnArea4() {
 
   const resetGame = () => {
     setDraggableItems([
-      { id: 1, iconName: "images/learnAreaI.png", brandName: "images/learnAreaQ1.png", isDropped: false },
-      { id: 2, iconName: "images/learnAreaS.png", brandName: "images/learnAreaQ2.png", isDropped: false },
-      { id: 3, iconName: "images/learnAreaU.png", brandName: "images/learnAreaQ3.png", isDropped: false }
+      { id: 1, iconName: "./images/learnAreaI.png", brandName: "./images/learnAreaQ1.png", isDropped: false },
+      { id: 2, iconName: "./images/learnAreaS.png", brandName: "./images/learnAreaQ2.png", isDropped: false },
+      { id: 3, iconName: "./images/learnAreaU.png", brandName: "./images/learnAreaQ3.png", isDropped: false }
     ]);
     setDroppedItems([]);
     setIsModalVisible(false);

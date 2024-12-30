@@ -22,7 +22,7 @@ function NavbarTwo() {
             <section id="NavbarTwo-page-1">
                 <div className="navBarBk">
                     <div className="navlogo">
-                        <Link to='/'><img src="images/logo.png" alt="" /></Link>                    </div>
+                        <Link to='/'><img src="./images/logo.png" alt="" /></Link>                    </div>
                     <div className="navBarBk-1">
                         {/* <div className="learningBtn">
                             <img src="../images/navBtn.png" alt="" />

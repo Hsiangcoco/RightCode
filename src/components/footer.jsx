@@ -50,14 +50,14 @@ function Footer() {
                     <div id="nav1-2">
                         <h1 className="logo"><a href="./index.html">
                             {/*  SVG預設自動寬度100%  */}
-                            <img className='logoimg' src="images/logo.png" alt="RightCodeLOGO" title="RightCodeLOGO" />
+                            <img className='logoimg' src="./images/logo.png" alt="RightCodeLOGO" title="RightCodeLOGO" />
                         </a></h1>
                         <ul className="icon">
                             <li><a className="iconfb" href="#">
-                                <img src="images/icon_fb.svg" alt="" />
+                                <img src="./images/icon_fb.svg" alt="" />
                             </a></li>
                             <li><a className="iconig" href="#">
-                                <img src="images/icon_ig.svg" alt="" />
+                                <img src="./images/icon_ig.svg" alt="" />
                             </a></li>
                         </ul>
 
